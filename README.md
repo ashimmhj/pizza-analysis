@@ -1,12 +1,12 @@
 # pizza-analysis
 pizza analysis using messy data
-# 🍕 Pizza Price Prediction using Random Forest
+#  Pizza Price Prediction using Random Forest
 
 This project analyzes a pizza dataset and builds a **machine learning model** to predict pizza prices based on company, size, toppings, diameter, variants, and extra options.
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 The goal of this project is to:
 
@@ -18,7 +18,7 @@ The goal of this project is to:
 
 ---
 
-## 📂 Dataset Information
+# Dataset Information
 
 * Total records: **129**
 * Total features: **9**
@@ -39,7 +39,7 @@ The goal of this project is to:
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 * **Python**
 * **Pandas & NumPy** – data handling
@@ -48,7 +48,7 @@ The goal of this project is to:
 
 ---
 
-## 🧹 Data Preprocessing Steps
+##  Data Preprocessing Steps
 
 1. Removed currency symbols (`Rp`, `,`) from `price_rupiah` and converted it to integer
 2. Removed `inch` from `diameter` and converted it to float
@@ -65,7 +65,7 @@ The goal of this project is to:
 
 ---
 
-## 📊 Exploratory Data Analysis (EDA)
+##  Exploratory Data Analysis (EDA)
 
 * Bar plots were used to analyze:
 
@@ -80,7 +80,7 @@ The goal of this project is to:
 
 ---
 
-## 🤖 Machine Learning Model
+##  Machine Learning Model
 
 * **Model:** RandomForestRegressor
 * **Target Variable:** `price_rupiah`
@@ -92,7 +92,7 @@ All columns except `price_rupiah`
 
 ---
 
-## 📈 Model Evaluation
+##  Model Evaluation
 
 | Metric                    | Value             |
 | ------------------------- | ----------------- |
@@ -106,7 +106,7 @@ All columns except `price_rupiah`
 
 ---
 
-## ✅ Conclusion
+##  Conclusion
 
 * The Random Forest model performs well in predicting pizza prices
 * Pricing is strongly influenced by **size, toppings, and variants**
@@ -115,7 +115,7 @@ All columns except `price_rupiah`
 ---
 
 #
-## 👤 Author
+##  Author
 
 **Ashim Maharjan**
 Data Science Student
